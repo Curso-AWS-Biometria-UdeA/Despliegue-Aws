@@ -1,4 +1,4 @@
-# Modulo Front-end
+# Módulo Front-end
 
 Para construir y desplegar de manera local el proyecto desarrollado en el curso por favor siga los siguientes pasos:
 
