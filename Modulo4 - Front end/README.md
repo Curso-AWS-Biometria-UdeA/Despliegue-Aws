@@ -8,4 +8,6 @@ Para construir y desplegar de manera local el proyecto desarrollado en el curso 
 
 - Ejecute el proyecto: `npm start`.
 
+- Finalmente se desplegará de manera local el Front-end desarrollado durante el curso de Despliegue en AWS.
+
 
