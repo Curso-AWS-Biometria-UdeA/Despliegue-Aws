@@ -1,0 +1,179 @@
+body {
+  background-color: whitesmoke;
+}
+
+.recorder{
+  background-color: white;
+  margin: auto;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #efefef;
+  padding: 30px;
+}
+
+.center {
+  text-align: center;
+}
+
+.vertical_center {
+  padding: 10px 15px;
+}
+
+.row {
+  display: flex;
+}
+
+/* Create two equal columns that sits next to each other */
+.column {
+  flex: 50%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+.login-page {
+  width: 60%;
+  padding: 4% 0 0;
+  margin: auto;
+  background-color:whitesmoke;
+}
+.cinta-superior{
+  width: 100%;
+  /*height: 200px;*/
+  background-color:whitesmoke;
+  padding: 10px 0px;
+}
+.page{
+  background-color: whitesmoke;
+}
+
+.form {
+  position: relative;
+  background: #FFFFFF;
+  max-width: 360px;
+  margin: 0 auto 0;
+  padding: 30px 50px;
+  text-align: center;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+.form ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #535353;
+}
+
+.form .message {
+  margin: 15px 0 0;
+  color: #979797;
+  font-size: 14px;
+}
+.form .message a {
+  color: #2e7e31;
+}
+
+.message_button {
+  color: #2e7e31;
+  font-size: 14px;
+}
+
+.button-left {
+  text-align: left;
+  padding:0;
+  max-width: 450px;
+}
+
+.button-right {
+  text-align: right;
+  padding:0;
+  max-width: 450px;
+}
+
+a.right {
+  padding-top: 17px;
+  display: inline-block;
+  text-align: right;
+  width: 100%;
+  color: #2e7e31;
+} 
+
+.parent{
+  display: table; 
+  margin: auto;
+  height: 30px;
+  width: 30px;
+}
+
+.circle {    
+  display: table-cell;
+  vertical-align: middle;
+  border-radius: 50%;
+  opacity: 0.9;
+  width: 100%;
+  height: 100%;
+}
+
+.triangle_green {    
+  width: 0;
+  height: 0;
+  border-top: 15px solid transparent;
+  border-left: 35px solid green;
+  border-bottom: 15px solid transparent;
+  border-color: transparent transparent transparent #229418;
+}
+
+.triangle_red {    
+  width: 0;
+  height: 0;
+  border-top: 15px solid transparent;
+  border-left: 35px solid red;
+  border-bottom: 15px solid transparent;
+  border-color: transparent transparent transparent red;
+}
+
+.table {
+  width: 100%;
+  text-align: center;
+  justify-content: center;
+}
+
+.table thead th {
+  text-align: center;
+  vertical-align: middle;
+}
+
+.table > tbody > tr > td {
+  vertical-align: middle;
+}
+
+.button_image{
+  padding: 0;
+  border: none;
+  background: none;
+}
+
+.parent_popup{
+  vertical-align: middle;
+  display: table; 
+  height: 20px;
+  width: 20px;
+}
+
+.table_title {
+  color:#21252A;
+  font-size: 1rem;
+  font-weight: bold;
+  text-decoration-line: underline;
+}
+
+
+.chronometer {
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  height: 20px;
+  padding: 5px;        
+}
+
+.sty_canvas{
+  border: 2px solid #d3d3d3;
+}
